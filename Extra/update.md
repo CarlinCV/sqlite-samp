@@ -1,9 +1,11 @@
+Antes de começar a ler, leia primeiro [Insert](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Extra/insert.md) e [Select](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Extra/select.md) para compreender o contexto do que estiver escrito abaixo e não se perder.
+
 # Update
 - A instrução 'UPDATE' tem sua principal função atualizar uma linha de uma tabela. A instrução é formada da seguinte forma:
 ```sql
 UPDATE Tabela SET Coluna = Valor WHERE Referência;
 ```
-Sobre os parâmetros, se você não sabe, leia [insert](https://github.com/CarlinCV/sqlite-tutorial/blob/CarlinCV/Extra/insert.md) e também [select](https://github.com/CarlinCV/sqlite-tutorial/blob/CarlinCV/Extra/select.md) que irá compreender.
+Sobre os parâmetros, se você não sabe, leia [insert](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Extra/insert.md) e também [select](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Extra/select.md) que irá compreender.
 
 Dessa forma, você pode atualizar linhas e dados da seguinte forma:
 ```sql

@@ -1,3 +1,5 @@
+Antes de começar a ler, leia primeiro [Insert](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Extra/insert.md), [Select](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Extra/select.md) e [Update](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Extra/update.md) para compreender o contexto do que estiver escrito abaixo e não se perder.
+
 # Delete
 - A instrução 'DELETE' tem sua principal função deletar uma linha de uma tabela. A instrução é formada da seguinte forma:
 ```sql
