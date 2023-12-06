@@ -5,7 +5,7 @@ Irei explicar cada função abaixo e para que elas servem, essa aula é somente 
 - Cria uma conexão SQLite.
 ```pwn
 db_open(name[])
-name[] = Nome do `arquivo.db` localizado em `/scriptfiles/`
+name[] = Nome do 'arquivo.db' localizado em '/scriptfiles/'
 
 Retorna o identificador de conexões SQLite, começa em 1.
 ```
@@ -162,9 +162,13 @@ Retorna o identificador da consulta.
 ## [db_debug_openresults](https://www.open.mp/docs/scripting/functions/db_debug_openresults) & [db_debug_openfiles](https://www.open.mp/docs/scripting/functions/db_debug_openfiles)
 - São funções para desenvolvimento, não iremos utilizar no tutorial, mas básicamente elas retornam a quantidade de consultas abertas e também as conexões SQLite.
 
+Caso queira aprender sobre outras funções não relacionadas ao SQLite, procure na documentação do [Open.MP](https://www.open.mp/docs).
+
 # Relacionais
 - [Aula 1](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_1.md)
 - [Aula 2](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_2.md)
-- [Aula 3](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_3.md) (Anterior)
+- [Aula 3](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_3.md)
 - [Aula 4](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_4.md) (Atual)
 - [Aula 5](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_5.md) (Próximo)
+- [Aula 6](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_6.md)
+- [Aula 7](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_7.md) 
