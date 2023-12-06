@@ -47,13 +47,9 @@ INSERT INTO Jogadores(Nome, Idade, Level, Dinheiro) VALUES('Carlos Victor', 18, 
 ```
 
 Agora a nossa tabela vai ficar tipo assim:
-```sql
-Jogadores
-| Nome              | Idade | Level | Dinheiro  |
-|-------------------|-------|-------|-----------|
-| 'Carlos Victor'   | 18    | 1     | 250       |
-
-```
+| Jogadores     | Idade | Level | Dinheiro |
+|---------------|-------|-------|----------|
+| Carlos Victor | 18    | 1     | 250      |
 
 É fácil, se você não aprendeu ainda, continue lendo as aulas.
 
