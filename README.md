@@ -11,7 +11,8 @@ O tutorial será divido em algumas partes, provavelmente partes básicas, média
 
 # Relacionais
 - [Aula 1](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_1.md)
-- [Aula 2](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_1.md)
+- [Aula 2](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_2.md)
+- [Aula 3](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_3.md)
 
 # Créditos
 - [Carlos Victor](https://github.com/CarlinCV)
