@@ -20,12 +20,11 @@ Tabelas:
 - As colunas são uma parte específica de uma tabela que armazena um tipo específico de informação. Em outras palavras, uma coluna representa um campo ou atributo particular em uma tabela.
 
 Exemplo:
-```sql
-Coluna1		Coluna2		Coluna3
-Valor1		Valor2		Valor3
-Valor4		Valor5		Valor6
-Valor7		Valor8		Valor9
-```
+| Coluna1	| Coluna2	| Coluna3	|
+|-----------|-----------|-----------|
+| Valor1	| Valor2	| Valor3	|
+| Valor4	| Valor5	| Valor6	|
+| Valor7	| Valor8	| Valor9	|
 E por assim vai, percebem como é uma coluna? É um campo da tabela.
 
 # Valores
@@ -48,15 +47,11 @@ INSERT INTO Jogadores(Nome, Idade, Level, Dinheiro) VALUES('Carlos Victor', 18, 
 
 Agora a nossa tabela vai ficar tipo assim:
 ```sql
-Tabelas:
+Jogadores
+| Nome 				| Idade | Level	| Dinheiro	|
+|-------------------|-------|-------|-----------|
+| 'Carlos Victor'	| 18 	| 1 	| 250		|
 
-- Jogadores
-	| Nome 				| Idade | Level	| Dinheiro
-	| 'Carlos Victor'	| 18 	| 1 	| 250
-- Jogadores
-- Veiculos
-- Empresas
-- Casas
 ```
 
 É fácil, se você não aprendeu ainda, continue lendo as aulas.

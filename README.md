@@ -9,10 +9,14 @@ Esse tutorial serve para todos os tipos de pessoa, aqueles que já tem conhecime
 
 O tutorial será divido em algumas partes, provavelmente partes básicas, médias e avançadas. Eu recomendo que se você é um iniciante, siga a ordem do básico, médio e avançado, e não pule as aulas. Leia com atenção, se não entendeu, leia novamente. Pratique tudo que você aprender aqui, não fique apenas na teoria, faça e aprenda.
 
-# Relacionais
-- [Aula 1](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_1.md)
+# Aulas
+- [Aula 1](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_1.md) (Próximo)
 - [Aula 2](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_2.md)
 - [Aula 3](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_3.md)
+- [Aula 4](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_4.md)
+- [Aula 5](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_5.md)
+- [Aula 6](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_6.md)
+- [Aula 7](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_7.md)
 
 # Créditos
 - [Carlos Victor](https://github.com/CarlinCV)
