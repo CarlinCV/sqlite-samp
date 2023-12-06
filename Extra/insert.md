@@ -29,20 +29,16 @@ Valor7		Valor8		Valor9
 E por assim vai, percebem como é uma coluna? É um campo da tabela.
 
 # Valores
-- Os valores são os valores respectivos de cada coluna, se eu quero inserir um nome na tabela Nomes, eu devo passar o valor desse nome em Valores, exemplo:
+- Os valores são os valores respectivos de cada coluna, se eu quero inserir um nome na tabela Jogadores, eu devo passar o valor desse nome em Valores, exemplo:
 ```sql
 INSERT INTO Jogadores(Nome) VALUES('Carlos Victor');
 ```
-Agora na minha tabela 'Nomes' vai ter uma linha da coluna 'Nome' com o valor 'Carlos Victor', ficará assim:
+Agora na minha tabela 'Jogadores' vai ter uma linha da coluna 'Nome' com o valor 'Carlos Victor', ficará assim:
 ```sql
-Tabelas:
-
 - Jogadores
-	| Nome 				|
-	| 'Carlos Victor'	|
-- Veiculos
-- Empresas
-- Casas
+| Nome 				|
+|-------------------|
+| 'Carlos Victor'	|
 ```
 
 E se eu quiser inserir a idade? Simples. Considerando que não exista a linha 'Carlos Victor', que tem as colunas 'Nome', 'Idade', 'Level' e 'Dinheiro', vamos executar o seguinte comando:
