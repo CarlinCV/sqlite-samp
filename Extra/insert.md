@@ -25,6 +25,7 @@ Exemplo:
 | Valor1	| Valor2	| Valor3	|
 | Valor4	| Valor5	| Valor6	|
 | Valor7	| Valor8	| Valor9	|
+
 E por assim vai, percebem como é uma coluna? É um campo da tabela.
 
 # Valores
@@ -35,9 +36,9 @@ INSERT INTO Jogadores(Nome) VALUES('Carlos Victor');
 Agora na minha tabela 'Jogadores' vai ter uma linha da coluna 'Nome' com o valor 'Carlos Victor', ficará assim:
 ```sql
 - Jogadores
-| Nome 				|
+| Nome              |
 |-------------------|
-| 'Carlos Victor'	|
+| 'Carlos Victor'   |
 ```
 
 E se eu quiser inserir a idade? Simples. Considerando que não exista a linha 'Carlos Victor', que tem as colunas 'Nome', 'Idade', 'Level' e 'Dinheiro', vamos executar o seguinte comando:
@@ -48,9 +49,9 @@ INSERT INTO Jogadores(Nome, Idade, Level, Dinheiro) VALUES('Carlos Victor', 18, 
 Agora a nossa tabela vai ficar tipo assim:
 ```sql
 Jogadores
-| Nome 				| Idade | Level	| Dinheiro	|
+| Nome              | Idade | Level | Dinheiro  |
 |-------------------|-------|-------|-----------|
-| 'Carlos Victor'	| 18 	| 1 	| 250		|
+| 'Carlos Victor'   | 18    | 1     | 250       |
 
 ```
 
