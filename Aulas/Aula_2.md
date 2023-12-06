@@ -11,10 +11,10 @@ Para criar um banco de dados para executarmos no SAMP, você precisa criar um ar
 > `scripfiles/database.db`
 
 O arquivo inicialmente não terá nada, óbvio. Então você poderá abrir ele no seu editor SQL.
-![Imagem mostrando o programa DB Browser em sua página inicial.](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Extra/Imagens/image_1.png)
+![Imagem mostrando o programa DB Browser em sua página inicial.](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Imagens/image_1.png)
 
 # Criando tabelas
 Você irá clicar no botão 'Criar tabela' localizado no canto esquerdo superior.
-![Imagem mostrando o botão 'Criar tabela' do programa DB Browser.](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Extra/Imagens/image_2.png)
+![Imagem mostrando o botão 'Criar tabela' do programa DB Browser.](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Imagens/image_2.png)
 
-![Imagem especificando cada conteúdo, input de uma criação de tabela.](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Extra/Imagens/image_3.png)
+![Imagem especificando cada conteúdo, input de uma criação de tabela.](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Imagens/image_3.png)
