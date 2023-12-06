@@ -3,7 +3,7 @@
 ```sql
 UPDATE Tabela SET Coluna = Valor WHERE Referência;
 ```
-Sobre os parâmetros, se você não sabe, leia [insert](https://github.com/CarlinCV/sqlite-tutorial/raw/Extra/insert.md) e também [select](https://github.com/CarlinCV/sqlite-tutorial/raw/Extra/select.md) que irá compreender.
+Sobre os parâmetros, se você não sabe, leia [insert](https://github.com/CarlinCV/sqlite-tutorial/raw/CarlinCV/Extra/insert.md) e também [select](https://github.com/CarlinCV/sqlite-tutorial/raw/CarlinCV/Extra/select.md) que irá compreender.
 
 Dessa forma, você pode atualizar linhas e dados da seguinte forma:
 ```sql

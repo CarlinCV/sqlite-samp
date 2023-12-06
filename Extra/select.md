@@ -1,4 +1,4 @@
-Antes de começar a ler, leia primeiro [Insert](https://github.com/CarlinCV/sqlite-tutorial/raw/Extra/insert.md) para compreender o contexto do que estiver escrito abaixo e não se perder.
+Antes de começar a ler, leia primeiro [Insert](https://github.com/CarlinCV/sqlite-tutorial/raw/CarlinCV/Extra/insert.md) para compreender o contexto do que estiver escrito abaixo e não se perder.
 
 # Select
 - A instrução 'SELECT' tem sua principal função selecionar dados de uma tabela. A instrução é formada da seguinte forma:

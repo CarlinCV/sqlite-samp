@@ -6,10 +6,10 @@ Então, você sabe que o SQL é uma linguagem de consultas estruturadas, ou seja
 
 No SQL existem comandos ou instruções (não são funções) que fazem operações e retornam valores com base nos dados fornecidos nesses comandos. Um dos comandos mais usados no SQL são:
 
-- [INSERT](https://github.com/CarlinCV/sqlite-tutorial/raw/Extra/insert.md)
-- [SELECT](https://github.com/CarlinCV/sqlite-tutorial/raw/Extra/select.md)
-- [UPDATE](https://github.com/CarlinCV/sqlite-tutorial/raw/Extra/update.md)
-- [DELETE](https://github.com/CarlinCV/sqlite-tutorial/raw/Extra/delete.md)
+- [INSERT](https://github.com/CarlinCV/sqlite-tutorial/raw/CarlinCV/Extra/insert.md)
+- [SELECT](https://github.com/CarlinCV/sqlite-tutorial/raw/CarlinCV/Extra/select.md)
+- [UPDATE](https://github.com/CarlinCV/sqlite-tutorial/raw/CarlinCV/Extra/update.md)
+- [DELETE](https://github.com/CarlinCV/sqlite-tutorial/raw/CarlinCV/Extra/delete.md)
 
 E cada um dele tem uma função específica, cada um faz uma ação diferente, clique em cada um deles para ver para o que servem.
 
@@ -23,4 +23,4 @@ Existem diferentes tipos de bancos de dados, incluindo bancos de dados relaciona
 Viu que o SQL está presente em muitas aplicações? Básicamente tudo que você utiliza na internet é provavelmente feito e manipulado por SQL, já que o SQL oferece uma estrutura de consultas fácil e tranquila de analisar e desenvolver. O SQLite é muito mais fácil do que isso, o que estamos aprendendo aqui é sobre o SQL e isso é muito importante, se alguém um dia lhe fizer a pergunta, você já irá saber responder o que é SQL e o que é um banco de dados.
 
 # Relacionais
-- [Aula 2](https://github.com/CarlinCV/sqlite-tutorial/raw/Aulas/Aula_2.md)
+- [Aula 2](https://github.com/CarlinCV/sqlite-tutorial/raw/CarlinCV/Aulas/Aula_2.md)
