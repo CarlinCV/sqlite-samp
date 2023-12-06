@@ -45,7 +45,7 @@ Caso o retorno de `db_open` for diferente de `DB:0` significa que deu tudo certo
 
 Na Aula 4 irei explicar sobre as funções e já entraremos escrevendo códigos já utilizando funções do `SQLite`.
 
-# Relacionais
+# Aulas
 - [Aula 1](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_1.md)
 - [Aula 2](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_2.md)
 - [Aula 3](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_3.md) (Atual)

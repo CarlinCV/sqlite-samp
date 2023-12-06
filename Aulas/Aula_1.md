@@ -22,7 +22,7 @@ Existem diferentes tipos de bancos de dados, incluindo bancos de dados relaciona
 
 Viu que o SQL está presente em muitas aplicações? Básicamente tudo que você utiliza na internet é provavelmente feito e manipulado por SQL, já que o SQL oferece uma estrutura de consultas fácil e tranquila de analisar e desenvolver. O SQLite é muito mais fácil do que isso, o que estamos aprendendo aqui é sobre o SQL e isso é muito importante, se alguém um dia lhe fizer a pergunta, você já irá saber responder o que é SQL e o que é um banco de dados.
 
-# Relacionais
+# Aulas
 - [Aula 1](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_1.md) (Atual)
 - [Aula 2](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_2.md) (Próximo)
 - [Aula 3](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_3.md)

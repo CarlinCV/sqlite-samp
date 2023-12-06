@@ -171,7 +171,7 @@ public OnPlayerDisconnect(playerid, reason)
 
 Na próxima aula iremos fazer a função de salvar os dados do jogador e criar novas colunas para novos dados.
 
-# Relacionais
+# Aulas
 - [Aula 1](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_1.md)
 - [Aula 2](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_2.md)
 - [Aula 3](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_3.md)

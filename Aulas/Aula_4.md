@@ -164,7 +164,7 @@ Retorna o identificador da consulta.
 
 Caso queira aprender sobre outras funções não relacionadas ao SQLite, procure na documentação do [Open.MP](https://www.open.mp/docs).
 
-# Relacionais
+# Aulas
 - [Aula 1](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_1.md)
 - [Aula 2](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_2.md)
 - [Aula 3](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_3.md)
