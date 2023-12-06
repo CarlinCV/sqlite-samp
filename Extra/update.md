@@ -18,3 +18,5 @@ Você também pode atualizar outras coisas, como o level e o dinheiro, etc...
 UPDATE Jogadores SET Idade = 21, Level = 5, Dinheiro = 840 WHERE Nome = 'Carlos Victor';
 ```
 Percebam que eu atualizei várias colunas de uma única vez? Sim, você pode atualizar de uma vez só várias colunas.
+
+Próximo tópico [delete](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Extra/delete.md)

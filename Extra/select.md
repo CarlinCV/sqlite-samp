@@ -29,3 +29,5 @@ Nome			| Idade | Level	| Dinheiro
 ```
 
 Veja como as coisas são simples e fáceis, não é um monstro de sete cabeças, é leitura e aprendizagem.
+
+Próximo tópico [update](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Extra/update.md)

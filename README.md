@@ -3,7 +3,7 @@ Olá, seja bem-vindo(a)! Aqui você irá aprender 100% o SQLite e deixar os tipo
 
 Saiba que qualquer tipo de salvamento de texto, não foi criado ou não deveria ser usado para manipular dados em massa. São provavelmente pacotes feitos para manipular arquivos de configurações, um método dinâmico de configurações é esse, utilizar arquivos de texto para por exemplo, configurar uma database, ou outras informações, mas nunca, nunca, salvamento em massa de dados como jogadores, veículos, organizações, etc...
 
-Para manipular dados brutos e em massa, eu apresento a todos o [SQL](https://github.com/CarlinCV/sqlite-tutorial/blob/CarlinCV/Aulas/Aula_1.md), o SQL não será explicado aqui, terá uma página totalmente dedicada ao SQL, aqui é apenas as boas vindas.
+Para manipular dados brutos e em massa, eu apresento a todos o [SQL](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_1.md), o SQL não será explicado aqui, terá uma página totalmente dedicada ao SQL, aqui é apenas as boas vindas.
 
 Esse tutorial serve para todos os tipos de pessoa, aqueles que já tem conhecimento e os iniciantes que deseja realmente aprender. Se você não quer aprender sobre o SQL, eu recomendo que nem continue, você irá perder o seu tempo aqui, mas se você realmente quer utilizar seu tempo e sair daqui sabendo o SQLite completo, fique e verás.
 

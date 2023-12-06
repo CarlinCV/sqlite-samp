@@ -64,3 +64,5 @@ Tabelas:
 ```
 
 É fácil, se você não aprendeu ainda, continue lendo as aulas.
+
+Próximo tópico [select](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Extra/select.md)
