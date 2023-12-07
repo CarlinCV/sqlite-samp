@@ -9,16 +9,22 @@ Considerando que você tenha seu gamemode em mãos, vamos lá.
 ```pwn
 [...]
 // Vamos criar a função Player_Save.
-// Nota-se que também eu sigo um padrão, que é sempre criar 
-funções em Inglês e também com "TAG's", tipo ..._Save, ..._Load, 
-..._Reset, isso ajuda muito na programação e localização de 
-funções para corrigir futuramente. Caso você não siga essa 
-prática, eu recomendo que comece a seguir, não serve apenas para 
-jogadores, mas para sistemas de casas tipo: House_Load, 
-House_Save, também para veículos: Vehicle_Load, Vehicle_Save, 
-empresas: Bussines_Load, Bussines_Save, sempre mantendo o inglês 
-presente e a padronização que fazem jus ao o que a função 
-significa e faz.
+/*
+	Nota-se que também eu sigo um padrão, que é sempre criar 
+	funções em Inglês e também com "TAG's", tipo ..._Save, 
+	..._Load, 
+	..._Reset, isso ajuda muito na programação e localização de 
+	funções para corrigir futuramente. Caso você não siga essa 
+	prática, eu recomendo que comece a seguir, não serve apenas 
+	para 
+	jogadores, mas para sistemas de casas tipo: House_Load, 
+	House_Save, também para veículos: Vehicle_Load, 
+	Vehicle_Save, 
+	empresas: Bussines_Load, Bussines_Save, sempre mantendo o 
+	inglês 
+	presente e a padronização que fazem jus ao o que a função 
+	significa e faz.
+*/
 
 // Vamos lá.
 Player_Save(playerid)
