@@ -27,9 +27,23 @@ Player_Save(playerid)
     db_free_result(db_query(g_Handle, result));
 
     /*
-    	É possível notar uma diferença nessa formatação, é possível ver que usei crases, aspas simples, além de ter usado barras inversas, isso meus amigos, se chama padronização e tipagem de programação, eu sigo essa ideia de ter um gamemode organizado e padronizado, além de ser possível ler cada linha do código, eu poderia colocar tudo na mesma linha? Sim, poderia, mas ficaria algo desorganizado, totalmente cru e sem nexo, é mais fácil eu quebrar linhas sando barras inversas do que escrever tudo na mesma linha. E percebem também que eu salvo o nome do jogador, por que isso? Simples, temos o ID fixo, o nome do jogador só importa quando vamos verificar se a conta existe, depois disso, o nome pouco importa, por conta do ID Fixo, manipularemos o ID fixo ao invés do nome, o nome pode ser alterado em um sistema de name-change, agora o ID não pode e recomendo que nunca altere o ID, é possível? Sim, mas não é recomendado, e também só é possível se você acessar o banco de dados e mudar manualmente. Não recomendo mudar, mantenha o ID único do jogador até o fim do seu projeto ou servidor.
+    	É possível notar uma diferença nessa formatação, é possível ver que usei 
+    	crases, aspas simples, além de ter usado barras inversas, isso meus amigos, 
+    	se chama padronização e tipagem de programação, eu sigo essa ideia de ter um 
+    	gamemode organizado e padronizado, além de ser possível ler cada linha do 
+    	código, eu poderia colocar tudo na mesma linha? Sim, poderia, mas ficaria 
+    	algo desorganizado, totalmente cru e sem nexo, é mais fácil eu quebrar 
+    	linhas sando barras inversas do que escrever tudo na mesma linha. E percebem 
+    	também que eu salvo o nome do jogador, por que isso? Simples, temos o ID 
+    	fixo, o nome do jogador só importa quando vamos verificar se a conta existe, 
+    	depois disso, o nome pouco importa, por conta do ID Fixo, manipularemos o ID 
+    	fixo ao invés do nome, o nome pode ser alterado em um sistema de 
+    	name-change, agora o ID não pode e recomendo que nunca altere o ID, é 
+    	possível? Sim, mas não é recomendado, e também só é possível se você acessar 
+    	o banco de dados e mudar manualmente. Não recomendo mudar, mantenha o ID único do jogador até o fim do seu projeto ou servidor.
 
-    	Utilize essa função em OnPlayerDisconnect, antes de resetar os dados do jogador, aliás, se você resetar, você vai atualizar tudo zerado.
+    	Utilize essa função em OnPlayerDisconnect, antes de resetar os dados do 
+    	jogador, aliás, se você resetar, você vai atualizar tudo zerado.
     */
 	return 1;
 }
@@ -65,7 +79,7 @@ Adicione as novas colunas `Email`, `RegisterIP`, `IP`.
 ![Imagem dizendo onde adicionar e ajudando a adicionar as colunas](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Imagens/image_5.png)
 
 Depois de adicionado as colunas, pressione 'OK' para atualizar a tabela e as colunas forem adicionadas.
-![Imagem mostra que ao apertar 'OK' irá atualizar a tabela](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Imagens/image_5.png)
+![Imagem mostra que ao apertar 'OK' irá atualizar a tabela](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Imagens/image_6.png)
 
 Agora a nossa tabela Jogadores está tipo assim:
 | ID | Name          | Email | RegisterIP | IP  | Password | Money | Level |
