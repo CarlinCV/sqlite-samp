@@ -60,6 +60,13 @@ public OnPlayerConnect(playerid)
 	return 1;
 }
 
+public OnPlayerDisconnect(playerid, reason)
+{
+	Player_Save(playerid);
+	Player_Reset(playerid);
+	return 1;
+}
+
 public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 {
 	switch(dialogid)
@@ -103,6 +110,20 @@ Player_Load(playerid)
 	return 1;
 }
 
+Player_Save(playerid)
+{
+	format(g_Query, sizeof(g_Query), "UPDATE Jogadores SET \
+		`Name`='%q',\
+		`Level`='%d',\
+		`Money`='%d' WHERE `ID`='%d';", 
+										PlayerData[playerid][pName],
+										PlayerData[playerid][pLevel],
+										PlayerData[playerid][pMoney],
+										PlayerData[playerid][pID]);
+    db_free_result(db_query(g_Handle, result));
+	return 1;
+}
+
 Player_Reset(playerid)
 {	
 	static
@@ -111,11 +132,5 @@ Player_Reset(playerid)
 	PlayerData[playerid] = dummy;
 
 	PlayerData[playerid][pID] = -1;	
-	return 1;
-}
-
-public OnPlayerDisconnect(playerid, reason)
-{
-	Player_Reset(playerid);
 	return 1;
 }
