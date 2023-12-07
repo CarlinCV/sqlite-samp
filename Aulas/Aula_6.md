@@ -9,12 +9,22 @@ Considerando que você tenha seu gamemode em mãos, vamos lá.
 ```pwn
 [...]
 // Vamos criar a função Player_Save.
-// Nota-se que também eu sigo um padrão, que é sempre criar funções em Inglês e também com "TAG's", tipo ..._Save, ..._Load, ..._Reset, isso ajuda muito na programação e localização de funções para corrigir futuramente. Caso você não siga essa prática, eu recomendo que comece a seguir, não serve apenas para jogadores, mas para sistemas de casas tipo: House_Load, House_Save, também para veículos: Vehicle_Load, Vehicle_Save, empresas: Bussines_Load, Bussines_Save, sempre mantendo o inglês presente e a padronização que fazem jus ao o que a função significa e faz.
+// Nota-se que também eu sigo um padrão, que é sempre criar 
+funções em Inglês e também com "TAG's", tipo ..._Save, ..._Load, 
+..._Reset, isso ajuda muito na programação e localização de 
+funções para corrigir futuramente. Caso você não siga essa 
+prática, eu recomendo que comece a seguir, não serve apenas para 
+jogadores, mas para sistemas de casas tipo: House_Load, 
+House_Save, também para veículos: Vehicle_Load, Vehicle_Save, 
+empresas: Bussines_Load, Bussines_Save, sempre mantendo o inglês 
+presente e a padronização que fazem jus ao o que a função 
+significa e faz.
 
 // Vamos lá.
 Player_Save(playerid)
 {
-	// Vamos formatar os dados e usar a instrução 'UPDATE' para atualizar a linha do jogador na tabela Jogadores.
+	// Vamos formatar os dados e usar a instrução 'UPDATE' para 
+	atualizar a linha do jogador na tabela Jogadores.
 
 	format(g_Query, sizeof(g_Query), "UPDATE Jogadores SET \
 		`Name`='%q',\
@@ -40,10 +50,13 @@ Player_Save(playerid)
     	fixo ao invés do nome, o nome pode ser alterado em um sistema de 
     	name-change, agora o ID não pode e recomendo que nunca altere o ID, é 
     	possível? Sim, mas não é recomendado, e também só é possível se você acessar 
-    	o banco de dados e mudar manualmente. Não recomendo mudar, mantenha o ID único do jogador até o fim do seu projeto ou servidor.
+    	o banco de dados e mudar manualmente. Não recomendo 
+    	mudar, mantenha o ID único do jogador até o fim do seu 
+    	projeto ou servidor.
 
     	Utilize essa função em OnPlayerDisconnect, antes de resetar os dados do 
-    	jogador, aliás, se você resetar, você vai atualizar tudo zerado.
+    	jogador, aliás, se você resetar, você vai atualizar tudo 
+    	zerado.
     */
 	return 1;
 }
