@@ -11,13 +11,13 @@ Para criar um banco de dados para executarmos no SAMP, você precisa criar um ar
 > `scripfiles/database.db`
 
 O arquivo inicialmente não terá nada, óbvio. Então você poderá abrir ele no seu editor SQL.
-![Imagem mostrando o programa DB Browser em sua página inicial.](https://github.com/CarlinCV/sqlite-samp/blob/main/Imagens/image_1.png)
+![Imagem mostrando o programa DB Browser em sua página inicial.](Imagens/image_1.png)
 
 # Criando tabelas
 Você irá clicar no botão 'Criar tabela' localizado no canto esquerdo superior.
-![Imagem mostrando o botão 'Criar tabela' do programa DB Browser.](https://github.com/CarlinCV/sqlite-samp/blob/main/Imagens/image_2.png)
+![Imagem mostrando o botão 'Criar tabela' do programa DB Browser.](Imagens/image_2.png)
 
-![Imagem especificando cada conteúdo, input de uma criação de tabela.](https://github.com/CarlinCV/sqlite-samp/blob/main/Imagens/image_3.png)
+![Imagem especificando cada conteúdo, input de uma criação de tabela.](Imagens/image_3.png)
 
 Você irá criar uma tabela chamada `Jogadores` para iniciarmos os trabalhos e práticas no servidor SAMP.
 Vamos inicialmente manipular apenas alguns dados, futuramente será ensinado como adicionar outras colunas em uma tabela, etc...
@@ -78,5 +78,5 @@ A crase é usada para indicar que `'player-data'` é um identificador. Sem a cra
 Isso é especialmente útil quando você tem espaços, caracteres especiais ou palavras reservadas no nome da tabela ou coluna.
 
 # Aulas
-- [Aula 2](https://github.com/CarlinCV/sqlite-samp/blob/main/Aulas/Aula_2.md) (Atual)
-- [Aula 3](https://github.com/CarlinCV/sqlite-samp/blob/main/Aulas/Aula_3.md) (Próximo)
+- [Aula 2](Aulas/Aula_2.md) (Atual)
+- [Aula 3](Aulas/Aula_3.md) (Próximo)

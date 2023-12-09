@@ -1,5 +1,5 @@
 # Funções do SQLite
-Irei explicar cada função abaixo e para que elas servem, essa aula é somente para explicar as funções do include `a_sampdb` se você já sabe como elas funcionam, pode pular para [Aula 5](https://github.com/CarlinCV/sqlite-samp/blob/main/Aulas/Aula_5.md).
+Irei explicar cada função abaixo e para que elas servem, essa aula é somente para explicar as funções do include `a_sampdb` se você já sabe como elas funcionam, pode pular para [Aula 5](Aulas/Aula_5.md).
 
 ## [db_open](https://www.open.mp/docs/scripting/functions/db_open)
 - Cria uma conexão SQLite.
@@ -165,5 +165,5 @@ Retorna o identificador da consulta.
 Caso queira aprender sobre outras funções não relacionadas ao SQLite, procure na documentação do [Open.MP](https://www.open.mp/docs).
 
 # Aulas
-- [Aula 4](https://github.com/CarlinCV/sqlite-samp/blob/main/Aulas/Aula_4.md) (Atual)
-- [Aula 5](https://github.com/CarlinCV/sqlite-samp/blob/main/Aulas/Aula_5.md) (Próximo)
+- [Aula 4](Aulas/Aula_4.md) (Atual)
+- [Aula 5](Aulas/Aula_5.md) (Próximo)

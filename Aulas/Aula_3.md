@@ -18,7 +18,7 @@ Não é necessário, mas caso retornar erros, inclua o `a_sampdb` no topo do seu
 
 Ele geralmente é nativo do Pawn e já está incluido em `a_samp`, mas em caso de erros, o arquivo também ficará disponível no repositório, caso precise baixar.
 
-Para iniciarmos o SQLite no SAMP, precisamos criar uma variável que irá manipular o banco de dados, e também temos que criar a conexão com o arquivo `database.db` que criamos na [Aula 2](https://github.com/CarlinCV/sqlite-samp/blob/main/Aulas/Aula_2.md).
+Para iniciarmos o SQLite no SAMP, precisamos criar uma variável que irá manipular o banco de dados, e também temos que criar a conexão com o arquivo `database.db` que criamos na [Aula 2](Aulas/Aula_2.md).
 
 Adicionem no gamemode de vocês o seguinte código:
 ```pwn
@@ -46,5 +46,5 @@ Caso o retorno de `db_open` for diferente de `DB:0` significa que deu tudo certo
 Na Aula 4 irei explicar sobre as funções e já entraremos escrevendo códigos já utilizando funções do `SQLite`.
 
 # Aulas
-- [Aula 3](https://github.com/CarlinCV/sqlite-samp/blob/main/Aulas/Aula_3.md) (Atual)
-- [Aula 4](https://github.com/CarlinCV/sqlite-samp/blob/main/Aulas/Aula_4.md) (Próximo)
+- [Aula 3](Aulas/Aula_3.md) (Atual)
+- [Aula 4](Aulas/Aula_4.md) (Próximo)

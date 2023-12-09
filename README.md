@@ -1,18 +1,28 @@
-# Boas Vindas
-Olá, seja bem-vindo(a)! Aqui você irá aprender 100% o SQLite e deixar os tipos de salvamento de texto como DOF2, dini entre outros.
+# Seja bem-vindo(a)!
+Olá, tudo bem? Me chamo Carlos Victor e nesse repositório eu irei ensinar tudo do SQLite aplicado no SA:MP (Pawn).
 
-Saiba que qualquer tipo de salvamento de texto, não foi criado ou não deveria ser usado para manipular dados em massa. São provavelmente pacotes feitos para manipular arquivos de configurações, um método dinâmico de configurações é esse, utilizar arquivos de texto para por exemplo, configurar uma database, ou outras informações, mas nunca, nunca, salvamento em massa de dados como jogadores, veículos, organizações, etc...
+Para quem não sabe, SA:MP é uma modificação Multiplayer do jogo GTA San Andreas (San Andreas Multiplayer).
 
-Para manipular dados brutos e em massa, eu apresento a todos o SQL, o SQL não será explicado aqui, terá uma página totalmente dedicada ao SQL, aqui é apenas as boas vindas.
+No SA:MP a linguagem de programação é o [Pawn](https://pt.wikipedia.org/wiki/Pawn), uma linguagem de script de código aberto e de quarta geração, criada em 1998 pela empresa CompuPhase.
 
-Esse tutorial serve para todos os tipos de pessoa, aqueles que já tem conhecimento e os iniciantes que deseja realmente aprender. Se você não quer aprender sobre o SQL, eu recomendo que nem continue, você irá perder o seu tempo aqui, mas se você realmente quer utilizar seu tempo e sair daqui sabendo o SQLite completo, fique e verás.
+No SA:MP o SQLite é nativo do include `a_sampdb` e com isso, podemos fazer muitas coisas, aliás, é SQL e é banco de dados.
 
-O tutorial será divido em algumas partes, provavelmente partes básicas, médias e avançadas. Eu recomendo que se você é um iniciante, siga a ordem do básico, médio e avançado, e não pule as aulas. Leia com atenção, se não entendeu, leia novamente. Pratique tudo que você aprender aqui, não fique apenas na teoria, faça e aprenda.
+Infelizmente alguns iniciantes no Pawn (SA:MP) tendem a começar a salvar as informações em arquivos de textos, utilizando o DOF2/dini como manipulador de dados, algo que é extremamente errado e não deveria ser assim. DOF2 e dini foram feitos para configurações dinâmicas e não salvamento e manipulação de dados brutos. E também é notável a falta e o esquecimento do SQLite no SA:MP, poucas pessoas sabem da existência disso no SA:MP, até mesmo programadores experientes não sabem que existe isso por pura falta de interesse em conhecer a linguagem.
 
-# Aulas
-As aulas são divididas por partes ou tópicos, as vezes em uma aula específica eu pego um tópico específico e falo tudo sobre o tópico. Então vale a pena ver todas as aulas em ordem.
+O SQLite está longe de ser o melhor manipulador de dados do mundo, mas para o SA:MP, algo de 2006 já é algo BEM melhor do que salvar os dados do jogador usando DOF2 ou dini.
 
-Para iniciar a aula 1, [clique aqui](https://github.com/CarlinCV/sqlite-samp/blob/main/Aulas/Aula_1.md). Boa sorte! Leia com atenção e siga os exemplos e métodos que eu ensino no decorrer das aulas.
+Se você não conhece o SQLite, [clique aqui](https://pt.wikipedia.org/wiki/SQLite) para ver uma visão do SQLite, não é o SQLite aplicado ao SA:MP, é a história dele, etc... É sempre bom também ler e ficar por dentro das coisas, onde tudo começou, etc...
+
+Esse repositório, terá algumas aulas, onde irei explicar do básico ao avançado, tudo sobre SQLite no SA:MP, e também é um tutorial daqueles "criando servidor SQLite", até porque o gamemode atualizado com os códigos estão na pasta [Files](Files) e se você desejar baixar, só ir lá e pegar, compilar que está tudo certinho. Todos os códigos desse tutorial são testados e análisados antes de serem upados e explicados.
+
+Desde já, eu agradeço a todos que vem apoiado a ideia e que vem contribuindo. Esse tutorial ou curso, seja lá o que for, é totalmente gratuito e público, fiquem a vontade em compartilhar e aprender. Meu Discord é `carlosvictor.`, meu DM está aberto para tirar dúvidas, fazer questionamento, etc... 
+
+A pasta [Extras](Extras) estão algumas "aulas" extras, sobre outros assuntos, que vocês vão ver enquanto lêem as aulas, podem ficar tranquilos e também a pasta [Images](Images) estão armazenadas as imagens que eu utilizo no tutorial, se você quiser pegar alguma imagem, fique a vontade.
+
+Todas as aulas estão na pasta [Aulas](Aulas) e você pode ver todas elas a qualquer momento. Para começar, vamos para a [Aula 1](Aulas/Aula_1.md), boa sorte!
+
+# Open.MP
+Não sei se irão alterar ou atualizar o SQLite do [Open.MP](https://open.mp), mas caso haja alguma alteração de funções, ou novidades, eu irei trazer aqui na pasta [OpenMP](Open.MP), beleza? Enquanto isso, o SA:MP e Open.MP dividem o mesmo include e acredito que não tenha diferença na aplicação.
 
 # Créditos
 - [Carlos Victor](https://github.com/CarlinCV)
