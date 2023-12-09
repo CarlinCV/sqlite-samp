@@ -22,3 +22,5 @@ Agora o jogador 'Carlos Victor' não existe mais, ele foi apagado.
 
 ATENÇÃO!
 - Essa instrução deve ter cautela, qualquer referência errada poderá afetar toda tabela, então tome cuidado antes de utilizar ela, você pode apagar todas as contas sem querer, então sempre faça um backup.
+
+> Voltar a [Aula 1](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_1.md)
