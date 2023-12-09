@@ -6,18 +6,20 @@ Com os códigos inicias já feitos, como a conexão com o SQLite, podemos partir
 #include <a_samp>
 
 #define MAX_LENGTH_IP (16) // Definimos o valor do tamanho de um IP para facilitar no código.
+#define MAX_LENGTH_PASSWORD (32) // Definimos o valor do tamanho da senha para 32 caracteres.
 
 // Um enumerador automáticamente enumera as variáveis do índice 0 como um autoincrement, então uma dica aí para criar id's de dialog é fazer dessa forma:
 enum {
-	DIALOG_LOGIN,
-	DIALOG_REGISTER
+	DIALOG_VIEW,	
+	DIALOG_REGISTER,
+	DIALOG_LOGIN
 };
 
 enum playerData {
 	pID, // Variável que iremos armazenar o ID único/fixo de cada jogador.
 	pName[MAX_PLAYER_NAME], // Armazenaremos o nome do jogador aqui
 	pIP[MAX_LENGTH_IP], // Armazenaremos o IP do jogador
-	pPassword, // Armazenaremos a senha do jogador aqui
+	pPassword[MAX_LENGTH_PASSWORD], // Armazenaremos a senha do jogador aqui
 
 	pLevel, // Armazenaremos o level do jogador aqui
 	pMoney, // Armazenaremos o dinheiro do jogador aqui 
@@ -172,12 +174,5 @@ public OnPlayerDisconnect(playerid, reason)
 Na próxima aula iremos fazer a função de salvar os dados do jogador e criar novas colunas para novos dados.
 
 # Aulas
-- [Aula 1](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_1.md)
-- [Aula 2](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_2.md)
-- [Aula 3](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_3.md)
-- [Aula 4](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_4.md)
-- [Aula 5](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_5.md)
-- [Aula 6](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_6.md) (Atual)
-- [Aula 7](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_7.md) (Próximo)
-- [Aula 8](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_8.md)
-- [Aula 9](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_9.md)
+- [Aula 5](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_5.md) (Atual)
+- [Aula 6](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_6.md) (Próximo)

@@ -13,7 +13,7 @@ A coluna `RegisterIP` iremos utilizar apenas uma vez em todo código, apenas qua
 
 // Então na consulta de vocês, do INSERT INTO no registro, adicionem:
 
-format(g_Query, sizeog(g_Query), "INSERT INTO Jogadores(Name, Password, RegisterIP) VALUES('%q', '%q', '%q');", PlayerData[playerid][pName], inputtext, PlayerData[playerid][pIP]);
+format(g_Query, sizeof(g_Query), "INSERT INTO Jogadores(Name, Password, RegisterIP) VALUES('%q', '%q', '%q');", PlayerData[playerid][pName], inputtext, PlayerData[playerid][pIP]);
 ```
 Pronto, agora quando um jogador tiver sua conta registrada, o IP dele do registro já será salvo na coluna `RegisterIP`. Agora precisamos atualizar a coluna `IP` toda vez que ele logar, já que toda conexão é um IP diferente ou não, mas pode mudar a cada conexão.
 
@@ -75,17 +75,50 @@ CMD:email(playerid, params[])
 	SendClientMessage(playerid, -1, string);	
 	return 1;
 }
+
+IsValidEmail(const email[])
+{
+    new
+    	length = strlen(email),
+        sign = -1,
+        point = -1;
+
+    if(!(64 < email[length - 1] < 91 || 96 < email[length - 1] < 123) || length < 7 )
+        return 0;
+
+    while(length--) {
+        switch(email[length]) {
+            case 64: {
+                if(sign != - 1)
+                    return 0;
+
+                sign = length;
+                continue;
+            }
+            case 46: {
+                if(point != - 1 || sign != - 1 )
+                    return 0;
+
+                point = length;
+                continue;
+            }
+            case 95, 45: {
+                if(!point)
+                	return 0;
+            }
+
+            case 48..57, 65..90, 97..122: {
+                continue;
+            }
+        }
+        return 0;
+    }
+    return (point != -1 && sign != -1);
+}
 ```
 
 Na próxima aula irei explicar sobre o `SQL Inject` e também sobre o específicador `%q` que eu utilizo bastante.
 
 # Aulas
-- [Aula 1](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_1.md)
-- [Aula 2](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_2.md)
-- [Aula 3](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_3.md)
-- [Aula 4](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_4.md)
-- [Aula 5](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_5.md)
-- [Aula 6](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_6.md)
 - [Aula 7](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_7.md) (Atual)
 - [Aula 8](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_8.md) (Próximo)
-- [Aula 9](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_9.md)

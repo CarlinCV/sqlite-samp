@@ -78,12 +78,5 @@ A crase é usada para indicar que `'player-data'` é um identificador. Sem a cra
 Isso é especialmente útil quando você tem espaços, caracteres especiais ou palavras reservadas no nome da tabela ou coluna.
 
 # Aulas
-- [Aula 1](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_1.md)
 - [Aula 2](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_2.md) (Atual)
 - [Aula 3](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_3.md) (Próximo)
-- [Aula 4](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_4.md)
-- [Aula 5](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_5.md)
-- [Aula 6](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_6.md)
-- [Aula 7](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_7.md) 
-- [Aula 8](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_8.md)
-- [Aula 9](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_9.md)

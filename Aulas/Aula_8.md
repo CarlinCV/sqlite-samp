@@ -89,12 +89,5 @@ De recomendação, eu sempre utilizo o `%q` quando estou mexendo com o SQLite, �
 Recomendo a vocês que sempre utilizem o `%q` até mesmo em consultas privadas que não sejam públicas, é uma boa prática e salva a vida de muitos, também recomendo um método de backup, nunca se sabe... Um código que também lê e procura falhas mitigadas usando o Escape e apagando no banco de dados essa falhas. Sempre tome cuidado com essas coisas, existem métodos de segurança e você nunca deve achar que é muita segurança, sempre será pouca e você sempre deve colocar mais e mais segurança.
 
 # Aulas
-- [Aula 1](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_1.md)
-- [Aula 2](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_2.md)
-- [Aula 3](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_3.md)
-- [Aula 4](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_4.md)
-- [Aula 5](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_5.md)
-- [Aula 6](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_6.md)
-- [Aula 7](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_7.md)
 - [Aula 8](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_8.md) (Atual)
 - [Aula 9](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_9.md) (Próximo)
