@@ -9,8 +9,39 @@
 
 #include <a_samp>
 
+#include <streamer>
+#include <sscanf2>
+
+#include <Pawn.CMD>
+#include <easyDialog>
+
+#define callback%0(%1) \
+	forward%0(%1); public%0(%1)
+
+#define Kick(%0) \
+	SetTimerEx("KickPlayer", 200, false, "i", %0)
+
 #define MAX_LENGTH_IP 			(16)
 #define MAX_LENGTH_PASSWORD 	(32)
+
+#define COLOR_LIGHTRED    (0xFF6347FF)
+#define COLOR_LIGHTGREEN  (0x9ACD32FF)
+#define COLOR_LIGHTYELLOW (0xF5DEB3FF)
+#define COLOR_LIGHTBLUE   (0x007FFFFF)
+
+#define COLOR_CLIENT      (0xAAC4E5FF)
+#define COLOR_WHITE       (0xFFFFFFFF)
+#define COLOR_RED         (0xFF0000FF)
+#define COLOR_CYAN        (0x33CCFFFF)
+#define COLOR_YELLOW      (0xFFFF00FF)
+#define COLOR_GREY        (0xAFAFAFFF)
+#define COLOR_PURPLE      (0xD0AEEBFF)
+#define COLOR_DARKBLUE    (0x1394BFFF)
+#define COLOR_ORANGE      (0xFFA500FF)
+#define COLOR_LIME        (0x00FF00FF)
+#define COLOR_GREEN       (0x33CC33FF)
+#define COLOR_BLUE        (0x2641FEFF)
+#define COLOR_SERVER      (0xFFFF90FF)
 
 enum {
 	DIALOG_VIEW,
@@ -31,6 +62,7 @@ enum playerData {
 	pWrong
 };
 new PlayerData[MAX_PLAYERS][playerData];
+#define ReturnName(%0) (PlayerData[%0][pName])
 
 new DB:g_Handle;
 new g_Query[1024];
@@ -229,4 +261,93 @@ IsValidEmail(const email[])
         return 0;
     }
     return (point != -1 && sign != -1);
+}
+
+forward  KickPlayer(playerid);
+public KickPlayer(playerid)
+{
+    #undef Kick
+
+    Kick(playerid);
+
+    #define Kick(%0) \
+    	SetTimerEx("KickPlayer", 200, false, "i", %0)
+
+	return 1;
+}
+
+stock SendClientMessageEx(playerid, color, const string[], {Float, _}:...)
+{
+	static
+	    args,
+	    str[144];
+
+	if ((args = numargs()) == 3)
+	{
+	    SendClientMessage(playerid, color, string);
+	}
+	else
+	{
+		while (--args >= 3)
+		{
+			#emit LCTRL 5
+			#emit LOAD.alt args
+			#emit SHL.C.alt 2
+			#emit ADD.C 12
+			#emit ADD
+			#emit LOAD.I
+			#emit PUSH.pri
+		}
+		#emit PUSH.S string
+		#emit PUSH.C 144
+		#emit PUSH.C str
+		#emit PUSH.S 8
+		#emit SYSREQ.C format
+		#emit LCTRL 5
+		#emit SCTRL 4
+
+		SendClientMessage(playerid, color, str);
+
+		#emit RETN
+	}
+	return 1;
+}
+
+stock SendClientMessageToAllEx(color, const string[], {Float, _}:...)
+{
+	static
+	    args,
+	    str[144];
+
+	if ((args = numargs()) == 2)
+	{
+	    SendClientMessageToAll(color, string);
+	}
+	else
+	{
+		while (--args >= 2)
+		{
+			#emit LCTRL 5
+			#emit LOAD.alt args
+			#emit SHL.C.alt 2
+			#emit ADD.C 12
+			#emit ADD
+			#emit LOAD.I
+			#emit PUSH.pri
+		}
+		#emit PUSH.S string
+		#emit PUSH.C 144
+		#emit PUSH.C str
+		#emit LOAD.S.pri 8
+		#emit ADD.C 4
+		#emit PUSH.pri
+		#emit SYSREQ.C format
+		#emit LCTRL 5
+		#emit SCTRL 4
+
+		SendClientMessageToAll(color, str);
+
+		#emit RETN
+	}
+	return 1;
 }
