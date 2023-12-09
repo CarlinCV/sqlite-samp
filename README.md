@@ -22,7 +22,7 @@ A pasta [Extras](Extras) estão algumas "aulas" extras, sobre outros assuntos, q
 Todas as aulas estão na pasta [Aulas](Aulas) e você pode ver todas elas a qualquer momento. Para começar, vamos para a [Aula 1](Aulas/Aula_1.md), boa sorte!
 
 # Open.MP
-Não sei se irão alterar ou atualizar o SQLite do [Open.MP](https://open.mp), mas caso haja alguma alteração de funções, ou novidades, eu irei trazer aqui na pasta [OpenMP](Open.MP), beleza? Enquanto isso, o SA:MP e Open.MP dividem o mesmo include e acredito que não tenha diferença na aplicação.
+Não sei se irão alterar ou atualizar o SQLite do [Open.MP](https://open.mp), mas caso haja alguma alteração de funções, ou novidades, eu irei trazer aqui na pasta [Open.MP](Open.MP), beleza? Enquanto isso, o SA:MP e Open.MP dividem o mesmo include e acredito que não tenha diferença na aplicação.
 
 # Créditos
 - [Carlos Victor](https://github.com/CarlinCV)
