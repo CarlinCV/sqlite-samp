@@ -10,3 +10,5 @@ Aqui estão todas as aulas do Tutorial SQLite, clique nas aulas para ser redirec
 - [Aula 7](Aulas/Aula_7.md) 
 - [Aula 8](Aulas/Aula_8.md)
 - [Aula 9](Aulas/Aula_9.md)
+
+- [Voltar para o inicio](https://github.com/CarlinCV/sqlite-samp)

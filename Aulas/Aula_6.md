@@ -93,13 +93,13 @@ db_free_result(db_query(g_Handle, "ALTER TABLE Jogadores ADD COLUMN 'IP' TEXT DE
 ```
 
 Selecione a tabela em que você quer editar, no caso iremos editar a tabela Jogadores e clique em Modificar Tabela:
-![Imagem mostra como editar uma coluna no DB Browser](../Imagens/image_4.png)
+![Imagem mostra como editar uma coluna no DB Browser](../Images/image_4.png)
 
 Adicione as novas colunas `Email`, `RegisterIP`, `IP`.
-![Imagem dizendo onde adicionar e ajudando a adicionar as colunas](../Imagens/image_5.png)
+![Imagem dizendo onde adicionar e ajudando a adicionar as colunas](../Images/image_5.png)
 
 Depois de adicionado as colunas, pressione 'OK' para atualizar a tabela e as colunas forem adicionadas.
-![Imagem mostra que ao apertar 'OK' irá atualizar a tabela](../Imagens/image_6.png)
+![Imagem mostra que ao apertar 'OK' irá atualizar a tabela](../Images/image_6.png)
 
 Agora a nossa tabela Jogadores está tipo assim:
 | ID | Name          | Email | RegisterIP | IP  | Password | Money | Level |

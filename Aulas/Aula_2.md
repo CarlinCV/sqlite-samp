@@ -11,13 +11,13 @@ Para criar um banco de dados para executarmos no SAMP, você precisa criar um ar
 > `scripfiles/database.db`
 
 O arquivo inicialmente não terá nada, óbvio. Então você poderá abrir ele no seu editor SQL.
-![Imagem mostrando o programa DB Browser em sua página inicial.](../Imagens/image_1.png)
+![Imagem mostrando o programa DB Browser em sua página inicial.](../Images/image_1.png)
 
 # Criando tabelas
 Você irá clicar no botão 'Criar tabela' localizado no canto esquerdo superior.
-![Imagem mostrando o botão 'Criar tabela' do programa DB Browser.](../Imagens/image_2.png)
+![Imagem mostrando o botão 'Criar tabela' do programa DB Browser.](../Images/image_2.png)
 
-![Imagem especificando cada conteúdo, input de uma criação de tabela.](../Imagens/image_3.png)
+![Imagem especificando cada conteúdo, input de uma criação de tabela.](../Images/image_3.png)
 
 Você irá criar uma tabela chamada `Jogadores` para iniciarmos os trabalhos e práticas no servidor SAMP.
 Vamos inicialmente manipular apenas alguns dados, futuramente será ensinado como adicionar outras colunas em uma tabela, etc...
@@ -44,7 +44,7 @@ CREATE TABLE Tabela(Coluna ValueType);
 No SQLite temos 5 tipos de valores, eles são:
 - `INTEGER` Armazena números inteiros, que podem ser positivos ou negativos. (Ex.: 1, -5, 500)
 - `TEXT` Armazena texto ou cadeias de caracteres. (Ex.: 'Olá mundo!', 'Carlos Victor', 'SQLite Tutorial')
-- `BLOB` Armazena dados binários, como imagens, arquivos ou qualquer tipo de dados não interpretado. (Ex.: Imagens codificadas em binário.)
+- `BLOB` Armazena dados binários, como imagens, arquivos ou qualquer tipo de dados não interpretado. (Ex.: Images codificadas em binário.)
 - `REAL` Armazena valores de ponto flutuante, ou seja, números com casas decimais. (Ex.: 3.14, -0.5, 2.0)
 - `NUMERIC` Armazena valores numéricos. Pode ser usado para armazenar inteiros ou números de ponto flutuante. (Ex.: 42, 3.14, -100)
 
