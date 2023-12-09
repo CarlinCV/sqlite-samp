@@ -12,7 +12,7 @@ O tutorial será divido em algumas partes, provavelmente partes básicas, média
 # Aulas
 As aulas são divididas por partes ou tópicos, as vezes em uma aula específica eu pego um tópico específico e falo tudo sobre o tópico. Então vale a pena ver todas as aulas em ordem.
 
-Para iniciar a aula 1, [clique aqui](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_1.md). Boa sorte! Leia com atenção e siga os exemplos e métodos que eu ensino no decorrer das aulas.
+Para iniciar a aula 1, [clique aqui](https://github.com/CarlinCV/sqlite-samp/blob/main/Aulas/Aula_1.md). Boa sorte! Leia com atenção e siga os exemplos e métodos que eu ensino no decorrer das aulas.
 
 # Créditos
 - [Carlos Victor](https://github.com/CarlinCV)

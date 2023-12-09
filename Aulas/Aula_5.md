@@ -1,4 +1,4 @@
-Se não souber de nenhuma função SQLite e para o que elas servem, recomendo que leia a [Aula 4](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_4.md) onde foi explicado sobre todas as funções do SQLite.
+Se não souber de nenhuma função SQLite e para o que elas servem, recomendo que leia a [Aula 4](https://github.com/CarlinCV/sqlite-samp/blob/main/Aulas/Aula_4.md) onde foi explicado sobre todas as funções do SQLite.
 
 ## Começando o SQLite
 Com os códigos inicias já feitos, como a conexão com o SQLite, podemos partir para um sistema de registro de jogadores. Criaremos então um enumerador para armazenar as variáveis dos jogadores.
@@ -174,5 +174,5 @@ public OnPlayerDisconnect(playerid, reason)
 Na próxima aula iremos fazer a função de salvar os dados do jogador e criar novas colunas para novos dados.
 
 # Aulas
-- [Aula 5](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_5.md) (Atual)
-- [Aula 6](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_6.md) (Próximo)
+- [Aula 5](https://github.com/CarlinCV/sqlite-samp/blob/main/Aulas/Aula_5.md) (Atual)
+- [Aula 6](https://github.com/CarlinCV/sqlite-samp/blob/main/Aulas/Aula_6.md) (Próximo)

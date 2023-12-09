@@ -126,5 +126,5 @@ No código acima, podemos ver que se o jogador acertar a senha armazenada em `pP
 Na próxima aula iremos OTIMIZAR completamente o nosso código e fazer melhorias, funções, macros para facilitar nossas vidas.
 
 # Aulas
-- [Aula 9](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_9.md) (Atual)
-- [Aula 10](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_10.md) (Próximo)
+- [Aula 9](https://github.com/CarlinCV/sqlite-samp/blob/main/Aulas/Aula_9.md) (Atual)
+- [Aula 10](https://github.com/CarlinCV/sqlite-samp/blob/main/Aulas/Aula_10.md) (Próximo)

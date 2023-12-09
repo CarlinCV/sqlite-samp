@@ -1,9 +1,9 @@
-Caso não tenha lido a [aula 5](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_5.md), recomendo que leie para prosseguir o tutorial.
+Caso não tenha lido a [aula 5](https://github.com/CarlinCV/sqlite-samp/blob/main/Aulas/Aula_5.md), recomendo que leie para prosseguir o tutorial.
 
 ## Salvamento dos dados do jogador
 Na última aula, aprendemos a como consultar, verificar se uma conta (linha) existe na tabela, além de criar a função para carregar os dados do jogador e também resetar, agora iremos aprender a como salvar os dados que o jogador adquire conforme joga, como dinheiro, level, etc...
 
-Não irei ficar colocando os códigos das aulas anteriores para evitar poluição, o arquivo completo sem comentários, só pegar compilar e usar está em [arquivos](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Files).
+Não irei ficar colocando os códigos das aulas anteriores para evitar poluição, o arquivo completo sem comentários, só pegar compilar e usar está em [arquivos](https://github.com/CarlinCV/sqlite-samp/blob/main/Files).
 
 Considerando que você tenha seu gamemode em mãos, vamos lá.
 ```pwn
@@ -40,7 +40,8 @@ Player_Save(playerid)
 										PlayerData[playerid][pLevel],
 										PlayerData[playerid][pMoney],
 										PlayerData[playerid][pID]);
-    db_free_result(db_query(g_Handle, result));
+										
+    db_free_result(db_query(g_Handle, g_Query));
 
     /*
     	É possível notar uma diferença nessa formatação, é possível ver que usei 
@@ -92,13 +93,13 @@ db_free_result(db_query(g_Handle, "ALTER TABLE Jogadores ADD COLUMN 'IP' TEXT DE
 ```
 
 Selecione a tabela em que você quer editar, no caso iremos editar a tabela Jogadores e clique em Modificar Tabela:
-![Imagem mostra como editar uma coluna no DB Browser](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Imagens/image_4.png)
+![Imagem mostra como editar uma coluna no DB Browser](https://github.com/CarlinCV/sqlite-samp/blob/main/Imagens/image_4.png)
 
 Adicione as novas colunas `Email`, `RegisterIP`, `IP`.
-![Imagem dizendo onde adicionar e ajudando a adicionar as colunas](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Imagens/image_5.png)
+![Imagem dizendo onde adicionar e ajudando a adicionar as colunas](https://github.com/CarlinCV/sqlite-samp/blob/main/Imagens/image_5.png)
 
 Depois de adicionado as colunas, pressione 'OK' para atualizar a tabela e as colunas forem adicionadas.
-![Imagem mostra que ao apertar 'OK' irá atualizar a tabela](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Imagens/image_6.png)
+![Imagem mostra que ao apertar 'OK' irá atualizar a tabela](https://github.com/CarlinCV/sqlite-samp/blob/main/Imagens/image_6.png)
 
 Agora a nossa tabela Jogadores está tipo assim:
 | ID | Name          | Email | RegisterIP | IP  | Password | Money | Level |
@@ -110,5 +111,5 @@ Por que os valores estão N/A? Porque definimos isso, e também como a conta já
 Na próxima aula iremos manipular essas colunas e fazer alguns comandos e sistemas.
 
 # Aulas
-- [Aula 6](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_6.md) (Atual)
-- [Aula 7](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_7.md) (Próximo)
+- [Aula 6](https://github.com/CarlinCV/sqlite-samp/blob/main/Aulas/Aula_6.md) (Atual)
+- [Aula 7](https://github.com/CarlinCV/sqlite-samp/blob/main/Aulas/Aula_7.md) (Próximo)

@@ -120,5 +120,5 @@ IsValidEmail(const email[])
 Na próxima aula irei explicar sobre o `SQL Inject` e também sobre o específicador `%q` que eu utilizo bastante.
 
 # Aulas
-- [Aula 7](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_7.md) (Atual)
-- [Aula 8](https://github.com/CarlinCV/sqlite-tutorial/blob/main/Aulas/Aula_8.md) (Próximo)
+- [Aula 7](https://github.com/CarlinCV/sqlite-samp/blob/main/Aulas/Aula_7.md) (Atual)
+- [Aula 8](https://github.com/CarlinCV/sqlite-samp/blob/main/Aulas/Aula_8.md) (Próximo)
