@@ -120,5 +120,5 @@ IsValidEmail(const email[])
 Na próxima aula irei explicar sobre o `SQL Inject` e também sobre o específicador `%q` que eu utilizo bastante.
 
 # Aulas
-- [Aula 7](Aulas/Aula_7.md) (Atual)
-- [Aula 8](Aulas/Aula_8.md) (Próximo)
+- Aula 7 (Atual)
+- [Aula 8](../Aulas/Aula_8.md) (Próximo)

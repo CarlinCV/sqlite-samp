@@ -1,4 +1,4 @@
-Antes de começar a ler, leia primeiro [Insert](https://github.com/CarlinCV/sqlite-samp/blob/main/Extra/insert.md), [Select](https://github.com/CarlinCV/sqlite-samp/blob/main/Extra/select.md) e [Update](https://github.com/CarlinCV/sqlite-samp/blob/main/Extra/update.md) para compreender o contexto do que estiver escrito abaixo e não se perder.
+Antes de começar a ler, leia primeiro [INSERT](../Extra/insert.md), [SELECT](../Extra/select.md) e [UPDATE](../Extra/update.md) para compreender o contexto do que estiver escrito abaixo e não se perder.
 
 # Delete
 - A instrução 'DELETE' tem sua principal função deletar uma linha de uma tabela. A instrução é formada da seguinte forma:
@@ -23,4 +23,4 @@ Agora o jogador 'Carlos Victor' não existe mais, ele foi apagado.
 ATENÇÃO!
 - Essa instrução deve ter cautela, qualquer referência errada poderá afetar toda tabela, então tome cuidado antes de utilizar ela, você pode apagar todas as contas sem querer, então sempre faça um backup.
 
-> Voltar a [Aula 1](https://github.com/CarlinCV/sqlite-samp/blob/main/Aulas/Aula_1.md)
+> Voltar a [Aula 1](../Aulas/Aula_1.md)

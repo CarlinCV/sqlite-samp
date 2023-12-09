@@ -1,4 +1,4 @@
-Antes de começar a ler, leia primeiro [Insert](https://github.com/CarlinCV/sqlite-samp/blob/main/Extra/insert.md) para compreender o contexto do que estiver escrito abaixo e não se perder.
+Antes de começar a ler, leia primeiro [INSERT](../Extra/insert.md) para compreender o contexto do que estiver escrito abaixo e não se perder.
 
 # Select
 - A instrução 'SELECT' tem sua principal função selecionar dados de uma tabela. A instrução é formada da seguinte forma:
@@ -28,4 +28,4 @@ SELECT * FROM Jogadores WHERE Nome = 'Carlos Victor';
 
 Veja como as coisas são simples e fáceis, não é um monstro de sete cabeças, é leitura e aprendizagem.
 
-Próximo tópico [update](https://github.com/CarlinCV/sqlite-samp/blob/main/Extra/update.md)
+Próximo tópico [UPDATE](../Extra/update.md)

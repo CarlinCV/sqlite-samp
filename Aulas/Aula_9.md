@@ -126,5 +126,5 @@ No código acima, podemos ver que se o jogador acertar a senha armazenada em `pP
 Na próxima aula iremos OTIMIZAR completamente o nosso código e fazer melhorias, funções, macros para facilitar nossas vidas.
 
 # Aulas
-- [Aula 9](Aulas/Aula_9.md) (Atual)
+- Aula 9 (Atual)
 - [Aula 10](Aulas/Aula_10.md) (Próximo)

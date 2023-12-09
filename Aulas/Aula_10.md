@@ -245,5 +245,5 @@ Provavelmente o jogador não irá ver a mensagem, porque ele foi expulso e não 
 Por enquanto, eu já que isso tudo já serve, vamos continuar as aulas e implementar isso tudo no seu gamemode. Para implementar isso, os macros deixem eles no topo, as funções deixem no final do gamemode, o macro `ReturnName` deixa em baixo de `new PlayerData[...`. As cores ficam lá em cima também, e é isso. Caso tenha dúvidas, o arquivo do gamemode atualizado está em [Files](../Files/gamemode.pwn).
 
 # Aulas
-- [Aula 10](Aulas/Aula_10.md) (Atual)
-- [Aula 11](Aulas/Aula_11.md) (Próximo)
+- Aula 10 (Atual)
+- [Aula 11](../Aulas/Aula_11.md) (Próximo)
