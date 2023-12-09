@@ -13,22 +13,18 @@ A condição pode também ser lida como referência, iremos ler abaixo sobre.
 Exemplo:
 ```sql
 SELECT Idade FROM Jogadores WHERE Nome = 'Carlos Victor';
-
-* Retorno: *
-| Nome          | Idade | Level | Dinheiro |
-|---------------|-------|-------|----------|
-| Carlos Victor | 18    | 1     | 250      |
 ```
-Se existir uma linha com o nome 'Carlos Victor' irá retornar linhas, e provavelmente irá retornar apenas a Idade, já é que isso que pedimos na instrução acima, pedimos que selecione apenas a coluna Idade, se você deseja pegar tudo da linha 'Carlos Victor' você pode usar o '\*' ou 'ALL' no lugar de 'Idade', da seguinte forma:
+| Idade |
+|-------|
+| 18    |
 
+Se existir uma linha com o nome 'Carlos Victor' irá retornar linhas, e provavelmente irá retornar apenas a Idade, já é que isso que pedimos na instrução acima, pedimos que selecione apenas a coluna Idade, se você deseja pegar tudo da linha 'Carlos Victor' você pode usar o '\*' ou 'ALL' no lugar de 'Idade', da seguinte forma:
 ```sql
 SELECT * FROM Jogadores WHERE Nome = 'Carlos Victor';
-
-* Retorno: *
+```
 | Nome              | Idade | Level | Dinheiro  |
 |-------------------|-------|-------|-----------|
 | 'Carlos Victor'   | 18    | 1     | 250       |
-```
 
 Veja como as coisas são simples e fáceis, não é um monstro de sete cabeças, é leitura e aprendizagem.
 

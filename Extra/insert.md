@@ -10,10 +10,10 @@ O que são essas colunas e valores?
 ```sql
 Tabelas:
 
-- jogadores
-- veiculos
-- casas
-- empresas
+- Jogadores
+- Veiculos
+- Casas
+- Empresas
 ```
 
 # Colunas
@@ -34,12 +34,9 @@ E por assim vai, percebem como é uma coluna? É um campo da tabela.
 INSERT INTO Jogadores(Nome) VALUES('Carlos Victor');
 ```
 Agora na minha tabela 'Jogadores' vai ter uma linha da coluna 'Nome' com o valor 'Carlos Victor', ficará assim:
-```sql
-- Jogadores
-| Nome              |
-|-------------------|
-| 'Carlos Victor'   |
-```
+| Nome          |
+|---------------|
+| Carlos Victor |
 
 E se eu quiser inserir a idade? Simples. Considerando que não exista a linha 'Carlos Victor', que tem as colunas 'Nome', 'Idade', 'Level' e 'Dinheiro', vamos executar o seguinte comando:
 ```sql
@@ -47,7 +44,6 @@ INSERT INTO Jogadores(Nome, Idade, Level, Dinheiro) VALUES('Carlos Victor', 18, 
 ```
 
 Agora a nossa tabela vai ficar tipo assim:
-### Jogadores
 | Nome          | Idade | Level | Dinheiro |
 |---------------|-------|-------|----------|
 | Carlos Victor | 18    | 1     | 250      |
