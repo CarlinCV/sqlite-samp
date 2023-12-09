@@ -1,8 +1,8 @@
 # O que é SQL?
-- SQL (Structured Query Language, "Linguagem de Consulta Estruturada") é uma linguagem de domínio específico desenvolvida para gerenciar dados relacionais em um sistema de gerenciamento de banco de dados, ou para processamento de fluxo de dados em um sistema de gerenciamento de fluxo de dados.
+SQL (Structured Query Language, "Linguagem de Consulta Estruturada") é uma linguagem de domínio específico desenvolvida para gerenciar dados relacionais em um sistema de gerenciamento de banco de dados, ou para processamento de fluxo de dados em um sistema de gerenciamento de fluxo de dados.
 Se você deseja ler mais sobre o SQL, [clique aqui](https://pt.wikipedia.org/wiki/SQL).
 
-Então, você sabe que o SQL é uma linguagem de consultas estruturadas, ou seja, é também uma linguagem de programação, você escreve códigos em SQL e executa em um banco de dados.
+Então, o SQL é uma linguagem de consulta projetada para gerenciar e manipular dados em sistemas de gerenciamento de banco de dados relacionais, você escreve instruções que serão consultadas no banco de dados e retornará os dados.
 
 No SQL existem comandos ou instruções (não são funções) que fazem operações e retornam valores com base nos dados fornecidos nesses comandos. Um dos comandos mais usados no SQL são:
 
@@ -14,7 +14,7 @@ No SQL existem comandos ou instruções (não são funções) que fazem operaç�
 E cada um dele tem uma função específica, cada um faz uma ação diferente, clique em cada um deles para ver para o que servem.
 
 # O que é um Banco de Dados?
-- Um banco de dados é um sistema organizado para armazenar, gerenciar e recuperar informações de maneira eficiente. Ele é projetado para permitir a fácil recuperação, inserção, atualização e remoção de dados. Os bancos de dados são fundamentais em muitas aplicações modernas, desde sistemas simples de gerenciamento de informações até grandes sistemas empresariais.
+Um banco de dados é um sistema organizado para armazenar, gerenciar e recuperar informações de maneira eficiente. Ele é projetado para permitir a fácil recuperação, inserção, atualização e remoção de dados. Os bancos de dados são fundamentais em muitas aplicações modernas, desde sistemas simples de gerenciamento de informações até grandes sistemas empresariais.
 
 Um banco de dados é geralmente composto por tabelas, que armazenam dados organizados em linhas e colunas. Cada tabela representa uma entidade específica, e as colunas representam os atributos dessa entidade. Os dados são armazenados de forma estruturada, facilitando consultas e análises.
 

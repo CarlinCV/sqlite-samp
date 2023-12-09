@@ -1,7 +1,7 @@
 # Instalando
 Vamos começar a praticar? Para isso, você precisa instalar alguns programas.
 
-- [DB Browser (SQLite)](https://sqlitebrowser.org/dl/) - Utilizarei esse no tutorial.
+- [DB Browser (SQLite)](https://sqlitebrowser.org/dl/) - Utilizarei no tutorial.
 - [HeidiSQL](https://www.heidisql.com/download.php)
 
 Ambos programas acima abrem os arquivos e vai te ajudar a manipular o banco de dados de forma mais acessível e prática. Para o pessoal que está vendo isso no celular, eu não conheço os aplicativos, então procurem um app que consigam fazer edições SQL pelo celular.
